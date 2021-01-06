@@ -1,0 +1,186 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.header{
+	width: 100%;
+	position: fixed;
+	background-color: #ffe01b;
+	transition: top 0.3s;
+	display: block;
+	/*top: -18px;*/
+}
+
+.header nav{
+	width: 33.33333333333333%;
+	padding-top: 10px;
+	/*background-color: blue;*/
+	float: left;
+}
+
+.header nav ul{
+	list-style: none;
+}
+
+.header nav ul li{
+	float: left;
+	padding: 15px;
+
+}
+
+.header nav ul li a{
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+	font-family: arial;
+}
+
+.header-images{
+	width: 33.33333333333333%;
+	/*background-color: black;*/
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.header-inner{
+	display: inline-block;
+	/*background-color: green;*/
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.header-inner a{
+	float: left;
+	padding-top: 10px;
+	color: black;
+	text-decoration: none;
+	font-family: arial;
+}
+
+.header-images img{
+	text-align: center;
+	float: left;
+	margin-right: 5px;
+}
+
+.header-images .header-inner input{
+	float: left;
+	height: 40px;
+	width: 40%;
+}
+
+.conten-side{
+	width: 100%;
+	height: 500px;
+	background-color: #ffe01b;
+}
+
+.center{
+	width: 80%;
+	height: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+	box-sizing: border-box;
+	float: left;
+	margin-top: 100px;
+}
+
+
+.inner-center{
+	width: 50%;
+	text-align: center;
+	box-sizing: border-box;
+	float: left;
+}
+
+
+.box{
+	width: 100%;
+	height: 400px;
+	margin-top: 16px;
+	float: left;
+
+}
+
+.minibox{
+	width: 30%;
+	height: 60px;
+	margin: 0 auto;
+	font-family: arial;
+	background-color: #007c89;
+	border-radius: 3px;
+}
+
+.in-minibox{
+	width: 100%;
+	display: inline-block;
+	padding-top: 20px;
+}
+
+ a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.countainer{
+	width: 100%;
+	height: 400px;
+}
+
+.inner-conten{
+	width: 75%;
+	color: white;
+	margin-bottom: 7%;
+	margin-top: 7%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+}
+
+.countainer .inner-conten .box1{
+	width: 50%;
+	/*height: 500px;*/
+	/*background-color: red;*/
+	float: left;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+
+
+h2{
+	font-size: 50px;
+	padding-left: 200px;
+}
+
+
+.background-grey{
+	width: 100%;
+	height: 500px;
+	background-color: #f6f6f4;
+}
+
+.in-backgroundgrey{
+	width: 70%;
+	margin-right: 12.5%;
+	margin-left: 12.5%;
+	/*background-color: blue;*/
+	box-sizing: border-box;
+	float: left;
+}
+
+.box-minigrey{
+	width: 23.33333333333333%;
+	background-color: yellow;
+	float: left;
+	text-align: center;
+	margin-left: 47px;
+	margin-right: 47px;
+	box-sizing: border-box;
+
+}
